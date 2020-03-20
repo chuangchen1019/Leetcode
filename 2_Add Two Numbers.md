@@ -3,7 +3,7 @@
 https://leetcode.com/problems/add-two-numbers/
 
 ### Solution
-```java=
+```python
 /**
  * Definition for singly-linked list.
  * public class ListNode {

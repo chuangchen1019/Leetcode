@@ -6,8 +6,8 @@
 ---
 ### Solution
     下面是將element加入set中去判斷有無重複，另外用slide window作法應該可以更快
-    
-```python=
+
+```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         

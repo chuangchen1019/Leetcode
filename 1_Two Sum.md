@@ -4,7 +4,7 @@ https://leetcode.com/problems/two-sum/
 
 ### Solution
     備註：人生第一題leetcode
-```java=
+```python
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         
