@@ -2,7 +2,7 @@
 
 ### Solution
     Weekly Contest 題目，難度easy，正規題目網址還沒出來
-```python=
+```python
 import string
 import random
 class Solution:

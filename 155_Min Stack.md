@@ -5,8 +5,8 @@
 ---
 ### Solution
     製作一個stack滿足基本功能，這邊大概比較要注意的是self的用法，基本宣告之類的
-    
-```python=
+
+```python
 class MinStack:
 
     def __init__(self):

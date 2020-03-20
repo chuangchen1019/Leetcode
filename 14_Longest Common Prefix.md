@@ -2,11 +2,10 @@
 
 ![](https://i.imgur.com/5wAF0RW.png)
 
-
 ---
 ### Solution
 
-```python3=
+```python
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         
@@ -42,3 +41,4 @@ class Solution:
             
         return ans
 ```
+

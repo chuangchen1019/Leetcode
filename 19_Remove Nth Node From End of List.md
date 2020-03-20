@@ -7,7 +7,7 @@
 ### Solution
     題目下面有hint只做一輪就能得到解答，但目前還沒嘗試XD
 
-```=python3
+```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

@@ -4,7 +4,7 @@
 https://leetcode.com/problems/pascals-triangle-ii/
 ### Solution
 
-```python=
+```python
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         

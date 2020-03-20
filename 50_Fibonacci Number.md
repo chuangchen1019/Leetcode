@@ -2,7 +2,7 @@
 ###### tags: `leetcode`
 https://leetcode.com/problems/fibonacci-number/
 ### Solution
-```cpp=
+```c
 class Solution {
 public:
     int fib(int N) {

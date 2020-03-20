@@ -4,7 +4,7 @@ https://leetcode.com/problems/merge-sorted-array/
 
 ### Solution
 
-```python=
+```python
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         """

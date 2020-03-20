@@ -3,9 +3,9 @@
 ![](https://i.imgur.com/52tEyfp.png)
 
 ### Solution
-    
 
-```python=
+
+```python
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         

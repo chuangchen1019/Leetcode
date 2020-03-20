@@ -4,12 +4,11 @@
 題目跟integer to roman一樣。
 ![](https://i.imgur.com/IOUT2RF.png)
 
-
 ---
 ### Solution
     完全的暴力解法，從此之後知道大量的對應資料可以存在dic或是map中QQ
 
-```python=
+```python
 class Solution:
     def romanToInt(self, s: str) -> int:
         

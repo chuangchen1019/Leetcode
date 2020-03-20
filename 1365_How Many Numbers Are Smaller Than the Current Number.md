@@ -6,7 +6,7 @@
 ---
 ### Solution
     中間有使用到sort index mapping等等的做法
-```python=
+```python
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         

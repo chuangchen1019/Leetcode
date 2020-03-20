@@ -3,7 +3,7 @@
 https://leetcode.com/problems/implement-strstr/
 ### Solution
     回來看以前用java寫的東西怎麼如此巨大(?)
-```java=
+```java
 class Solution {
     public int strStr(String haystack, String needle) {
         

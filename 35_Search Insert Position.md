@@ -3,12 +3,11 @@
 
 ![](https://i.imgur.com/xKQwQUf.png)
 
-
 ---
 ### Solution
-    
-    
-```=python
+
+
+```python
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         

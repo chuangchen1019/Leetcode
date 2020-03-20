@@ -5,7 +5,7 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 
 ### Solution
 
-```python=
+```python
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         
@@ -32,3 +32,4 @@ class Solution:
                 count = 1
                 index += 1
 ```
+

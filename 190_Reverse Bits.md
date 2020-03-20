@@ -2,7 +2,7 @@
 ###### tags: `leetcode`
 https://leetcode.com/problems/reverse-bits/
 ### Solution
-```python=
+```python
 class Solution:
     def reverseBits(self, n: int) -> int:
         
@@ -19,3 +19,4 @@ class Solution:
     
         return ans
 ```
+

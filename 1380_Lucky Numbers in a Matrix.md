@@ -2,7 +2,7 @@
 ###### tags: `leetcode`
 https://leetcode.com/problems/lucky-numbers-in-a-matrix/
 ### Solution
-```python=
+```python
 class Solution:
     def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
         
@@ -37,3 +37,4 @@ class Solution:
                 ans = rowMin[k]
                 return [ans]
 ```
+

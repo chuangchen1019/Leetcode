@@ -5,8 +5,8 @@
 ---
 ### Solution
     這題直接跑loop竟然會過，原本以為會TLE，另外一提Rotated Sorted的也是這個情況，有點意外XD
-    
-```python=
+
+```python
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         

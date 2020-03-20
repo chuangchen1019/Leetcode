@@ -5,7 +5,7 @@ https://leetcode.com/problems/unique-paths/
 ### Solution
     faster than 89.68% submissions!!
     在做階乘上有花了點心思讓計算量少一點(?)
-```python=
+```python
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
 

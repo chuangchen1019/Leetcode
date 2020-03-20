@@ -2,7 +2,7 @@
 ###### tags: `leetcode`
 https://leetcode.com/problems/remove-element/
 ### Solution
-```java=
+```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         

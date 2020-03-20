@@ -4,13 +4,12 @@
 
 ![](https://i.imgur.com/6ay8MOv.png)
 
-
 ---
 ### Solution
     使用stack實作，算是資料結構的標準解法(?)
     不過同時還要考慮配對順序，不然會錯。
 
-```python=
+```python
 class Solution:
     def isValid(self, s: str) -> bool:
         

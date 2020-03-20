@@ -3,7 +3,7 @@
 https://leetcode.com/problems/design-a-stack-with-increment-operation/
 
 ### Solution
-```python=
+```python
 class CustomStack:
 
     def __init__(self, maxSize: int):
@@ -38,3 +38,4 @@ class CustomStack:
 # param_2 = obj.pop()
 # obj.increment(k,val)
 ```
+

@@ -2,7 +2,7 @@
 ###### tags: `leetcode`
 https://leetcode.com/problems/length-of-last-word/
 ### Solution
-```python=
+```python
 class Solution(object):
     def lengthOfLastWord(self, s):
         """

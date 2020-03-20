@@ -4,7 +4,7 @@ https://leetcode.com/contest/weekly-contest-179/problems/bulb-switcher-iii/
 ### Solution
     用暴力解跑回圈->不意外的TLE。
     最後用index去比目前位置的最大來檢查位置序列是否valid
-```python=
+```python
 class Solution:
     def numTimesAllBlue(self, light: List[int]) -> int:
         

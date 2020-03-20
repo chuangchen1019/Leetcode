@@ -2,7 +2,7 @@
 ###### tags: `leetcode`
 https://leetcode.com/problems/climbing-stairs/
 ### Solution
-```python=
+```python
 class Solution(object):
     def climbStairs(self, n):
         """
@@ -23,3 +23,4 @@ class Solution(object):
         
         return nums[n]
 ```
+

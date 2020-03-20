@@ -2,7 +2,7 @@
 ###### tags: `leetcode`
 https://leetcode.com/problems/pascals-triangle/
 ### Solution
-```python=
+```python
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         
@@ -33,3 +33,4 @@ class Solution:
         return ans    
             
 ```
+

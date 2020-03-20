@@ -3,9 +3,9 @@
 https://leetcode.com/problems/add-binary/
 
 ### Solution
-    
 
-```python=
+
+```python
 class Solution(object):
     def addBinary(self, a, b):
         """

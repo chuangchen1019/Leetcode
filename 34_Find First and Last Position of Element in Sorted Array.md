@@ -5,7 +5,7 @@ https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-
 
 ### Solution
     用binary search可以快很多XD
-```python=
+```python
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         

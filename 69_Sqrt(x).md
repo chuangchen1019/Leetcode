@@ -4,7 +4,7 @@
 https://leetcode.com/problems/sqrtx/
 ### Solution
     慢到發瘋的寫法，還沒查優化的寫法
-```cpp=
+```cpp
 class Solution {
 public:
     int mySqrt(int x) {

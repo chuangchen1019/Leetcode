@@ -3,7 +3,7 @@
 https://leetcode.com/problems/triangle/
 
 ### Solution
-```python=
+```python
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         
@@ -29,3 +29,4 @@ class Solution:
                 
         return minPath
 ```
+

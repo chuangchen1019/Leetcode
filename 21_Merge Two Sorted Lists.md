@@ -9,7 +9,7 @@
     下面是同時比較兩個linked list的第一個node，將較小的加入新的linked list。
     有想到另一種做法->直接修改第一個linked list，將第二條的各個node依序插入。
 
-```python=
+```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

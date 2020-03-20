@@ -2,7 +2,7 @@
 ###### tags: `leetcode`
 https://leetcode.com/problems/powx-n/
 ### Solution
-```java=
+```java
 class Solution {
     public double myPow(double x, int n) {
         

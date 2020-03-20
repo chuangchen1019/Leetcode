@@ -5,7 +5,7 @@ https://leetcode.com/problems/rotate-list/
 ### Solution
     大概發生了幾次WA的問題，後來發現是count在跑的時候沒有設定好，導致last的位置不對。
     另外透過%有效減少跑linkedlist的次數才不會TLE
-```python=
+```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

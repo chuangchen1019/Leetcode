@@ -3,7 +3,7 @@
 https://leetcode.com/problems/reverse-integer/
 
 ### Solution
-```java=
+```python
 class Solution {
     public int reverse(int x) {
      
@@ -38,3 +38,4 @@ class Solution {
     }
 }
 ```
+
