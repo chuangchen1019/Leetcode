@@ -35,7 +35,7 @@ Output: false
 
 ### Solution
 
-基本上就是考數學觀念實作
+基本上就是考數學觀念實作，記得要處理水平線或是鉛直線QQ
 
 ```python
 class Solution:
