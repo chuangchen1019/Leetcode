@@ -31,6 +31,7 @@
 若fast slow重疊，則有cycle
 
 Q：如何保證走一步和走兩步必會在有cycle之情況重疊？
+試了四種狀況都符合，但沒辦法思考的很清楚。
 
 ```python
 # Definition for singly-linked list.
