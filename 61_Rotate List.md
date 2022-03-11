@@ -4,6 +4,7 @@ https://leetcode.com/problems/rotate-list/
 
 ### Solution (2022/3)
 二刷！！這次直接順利的解決了(?)而且時間是之前寫的一半XD 行數也是XDDD
+做法：將list的尾端接到頭，再算好要將哪一個部分切斷。
 
 ```python
 class Solution(object):
@@ -38,8 +39,11 @@ class Solution(object):
 ```
 
 ### Solution (2020/3)
-    大概發生了幾次WA的問題，後來發現是count在跑的時候沒有設定好，導致last的位置不對。
-    另外透過%有效減少跑linkedlist的次數才不會TLE
+大概發生了幾次WA的問題，後來發現是count在跑的時候沒有設定好，導致last的位置不對。
+另外透過%有效減少跑linkedlist的次數才不會TLE
+
+作法：將尾端要rotate的node去掉，再head加入新的node
+
 ```python
 # Definition for singly-linked list.
 # class ListNode:
