@@ -2,7 +2,42 @@
 ###### tags: `leetcode`
 https://leetcode.com/problems/rotate-list/
 
-### Solution
+### Solution (2022/3)
+二刷！！這次直接順利的解決了(?)而且時間是之前寫的一半XD 行數也是XDDD
+
+```python
+class Solution(object):
+    def rotateRight(self, head, k):
+        """
+        :type head: ListNode
+        :type k: int
+        :rtype: ListNode
+        """
+        
+        count = 0 
+        ptr = head
+        
+        if head == None:
+            return head
+        
+        while ptr.next != None:
+            count += 1
+            ptr = ptr.next  
+        
+        ptr.next = head
+        count += 1
+        
+        for i in range(count - k%(count)):
+            ptr = ptr.next
+        
+        head = ptr.next
+        ptr.next = None
+                
+        return head
+
+```
+
+### Solution (2020/3)
     大概發生了幾次WA的問題，後來發現是count在跑的時候沒有設定好，導致last的位置不對。
     另外透過%有效減少跑linkedlist的次數才不會TLE
 ```python
