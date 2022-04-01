@@ -18,7 +18,7 @@ You must do this by modifying the input array [in-place](https://en.wikipedia.or
 **Output:** ["h","a","n","n","a","H"]
 
 --- 
-### Solution (Swap Solution)
+### Solution (Swap)
 - 看了解法後忘記mirror的東西可以直接交換就好，時間省超多
 - 設定兩個指標lo, hi分別指向頭尾，總共跑len(s)/2次，將lo, hi內容交換
 - 當lo > hi時跳出迴圈
@@ -44,7 +44,7 @@ class Solution(object):
 ```
 
 --- 
-### Soution (Queue Solution)
+### Soution
 - 直觀暴力法...將S由後往前掃一遍，將掃到的字元append到尾端，再pop掉前面一半長度的字元。
 - 但是非常慢，跑完全部測資花了1秒鐘QQ，可能是因為要一直增加後面的長度又一直pop導致。
 - 1000ms / 21.3MB
