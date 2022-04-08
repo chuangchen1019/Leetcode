@@ -29,11 +29,37 @@ we combine 1 and 1 to get 0 so the array converts to [1] then that's the value o
 
 2. `1 <= stones[i] <= 1000`
 
-   
 
-### Solution
+### Solution 2022/04/08
+每一輪會進行sorting，判斷最後兩顆石頭是否重量相等，如果相等就將list pop兩次（拿掉兩個石頭），否則就留下一顆重量設定為相差，另一顆pop掉。
+最後低於兩顆石頭時離開迴圈，回傳剩下一顆的重量，或是全部碰撞掉就回傳0。
+```python
+class Solution(object):
+    def lastStoneWeight(self, stones):
+        """
+        :type stones: List[int]
+        :rtype: int
+        """
+        stones.sort()
+        while len(stones) >= 2:
+            if stones[-1] == stones[-2]:
+                stones.pop()
+                stones.pop()
+            else:
+                stones[-2] = abs(stones[-1] - stones[-2])
+                stones.pop()
+                stones.sort()
 
-可用heap optimize，目前下面為一般解法。
+        if len(stones) == 0:
+            return 0
+        else:
+            return stones[0]
+```
+
+
+### Solution 2020/04/12
+每一輪會將stones sort一次
+使用一個list temp去裝碰撞掉的石頭，再reference給stones（好像有點多此一舉？）
 
 ```python
 class Solution:
